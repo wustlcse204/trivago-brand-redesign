@@ -39,13 +39,41 @@ header{
     margin-left: 5px;
     line-height: 2.375rem;
     pointer-events: none;
-    color: #aaa;
+    color: rgba(0, 0, 0, 0.5);
 }
-/* div.form-group{
-    text-align: center;
-    margin-left: 300px;
-} */
-/* input{
-    text-align: center;
-} */
+.fa-calendar-o{
+    font-weight: bold;
+}
 input, select{ width: 400px; text-align-last:center; }
+/*website*/
+.jumbotron{
+    /* background-color: rgba(0,0,0,0.1); */
+    background-color: white;
+}
+.row.justify-content-center{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot:hover, .dot.active{
+    background-color: grey;
+}
+.prev, .next {
+    padding: 16px;
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+h4 a.text-muted{
+    position:absolute; 
+    right: 75px; 
+    font-size:16px;
+    margin: 0 2px 2px 2px;
+}
